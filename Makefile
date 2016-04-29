@@ -1,2 +1,3 @@
-build: prompt.c
-	cc -std=c99 -Wall -o prompt prompt.c
+lili: lili.c
+	cc -std=c99 -Wall lili.c mpc.c -ledit -lm -o lili
+
