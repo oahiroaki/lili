@@ -1,3 +1,4 @@
+CFLAGS = -g -std=c99 -Wall
 lili: lili.c
-	cc -std=c99 -Wall lili.c mpc.c -ledit -lm -o lili
+	cc $(CFLAGS) lili.c mpc.c -ledit -lm -o lili
 
